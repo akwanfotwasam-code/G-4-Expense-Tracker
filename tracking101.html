@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="tracking.css">
+</head>
+<body>
+<h1> G4 Expense Tracker</h1>
+
+  
+    
+ <table border="1" cellpadding="6">
+         <thead>
+           <tr id="headrow">
+              <th>Name</th>
+              <th>Amount</th>
+              <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="expense-table">
+            
+            </tbody>
+        <tfoot>
+          <tr>
+               <td> Total:</td>
+               <td id="total" colspan="2">0</td>
+            </tr>
+        </tfoot>
+    </table>
+
+<p>Expense Name:<input type="text" id="name"><br><br>
+    Amount:<input type="text" id="amount"></p>
+    <button  onclick="addExpense()">Add Expense</button>
+    
+  <script src="tracking.js"></script>
+</body>
+
+</html>
+
+
+
+
