@@ -5,7 +5,7 @@
 // totoal using loop
 // Allow delete of Any Item on Table
 
-deleTebleRowsCollected(){
+deleTebleRowsCollected();
 
     const table = document.getElementById(`myTable`);
     const rowsTable = [];
@@ -18,7 +18,7 @@ deleTebleRowsCollected(){
         }
     }
    
-    for (let i = 0; i< rowsToDelete.length.i++)
+    for (let i = 0; i< rowsToDelete.length;i++)
         {
         rowsToDelete[i],remove(); 
     }
@@ -38,4 +38,5 @@ deleTebleRowsCollected(){
 
     }
     
+
 // Use Functiosn and DDOM Mnipulations
