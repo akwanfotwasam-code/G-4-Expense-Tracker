@@ -1,8 +1,8 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     margin: auto;
-    background-color: rgb(192, 224, 253);
+    background-color:rgb(216, 216, 228);
     padding: 20px;
 }
 
@@ -22,8 +22,8 @@ tbody{
 }
 
 button{
-background-color: #288092;
-color: #fff;
+background-color:rgb(125, 125, 180);
+color: black;
 padding: 10px 20px;
 border: ridge;
 border-radius:5px;
@@ -35,7 +35,7 @@ transition: background-color 0.3s ease-in-out;
 }
 
 button:hover{
-    background-color: #076274;
+    background-color: rgb(71, 71, 102);
 }
 
 
@@ -56,11 +56,11 @@ table{
 }
 
 #headrow{
-    background-color: #1d9dfe;
+    background-color:rgb(147, 147, 185);
 }
 
 tbody{
-    background-color: #8ccbfb;
+    background-color: rgb(209, 209, 216);
 }
 
 
@@ -80,21 +80,11 @@ th, td{
 }
 
 tfoot{
-     background-color: #4cb2ff;
+   background-color:  rgb(147, 147, 185);
 }
 
-/* tfoot td{
-    padding-top: 15px;
-    padding-bottom: 8px;
 
-} */
 
-#total{
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    
-}
 
 p{
     text-align: center;
