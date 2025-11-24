@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker</title>
+</head>
+<body>
+     <style>
+    body { font-family: Arial, sans-serif; margin: 32px;}
+    table { width: 60%; margin-top: 16px; border-collapse: collapse;}
+    th, td { padding: 8px 12px; border: 1px solid #ddd;}
+    th { background: #18b5d1;}
+    .error {color: #b30000;}
+    #total { font-weight: bold; margin-top: 16px;}
+    input[type="text"] {padding:4px;}
+    button { cursor:pointer;}
+  </style>
+</head>
+<body>
+  <h2>Expenses Tracker</h2>
+  <form id="expenseForm" autocomplete="off">
+    <input type="text" id="expenseName" placeholder="Expense Name" required>
+    <input type="text" id="expenseAmount" placeholder="Amount (Number)" required>
+    <button type="submit">Add Expense</button>
+    <span class="error" id="errorMsg"></span>
+  </form>
+  <table id="expensesTable">
+    <thead>
+      <tr>
+        <th>Expense Name</th>
+        <th>Amount</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Expenses go here -->
+    </tbody>
+  </table>
+  <div id="total">Total: $0.00</div>
+
+  <!-- Link to external JS -->
+  <script src="kill.js"></script>
+
+</body>
+</html>
