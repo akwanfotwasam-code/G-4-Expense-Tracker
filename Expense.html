@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="Expense.css">
+    </head>
+
+
+    <body>
+<h1>G4 EXPENSE TRACKER</h1>
+
+        <table id="tableID" cellspacing="5" cellpadding="5" border="2" width="device-width">
+            <thead>
+                <tr id="headrow">
+                    <th>Item</th>
+                   <th>Price</th>
+                     <th>Quantity</th>
+                      <th>Action</th>
+                </tr>
+            </thead>
+          
+            <tbody id="expense-table">
+    
+            </tbody>
+            <tfoot>
+                <td> Total Cost(GHC):</td>
+               <td id="total" colspan="2">GHC0.00</td>
+            
+            </tr>
+            </tfoot>
+
+
+        </table>
+
+<p> Item:<input type="text" id="name"><br><br>
+    Price:<input type="text" id="amount"><br><br>
+     Quantity:<input type="text" id="number">
+</p>
+
+ <button onclick="addExpense()">Add Expense</button>
+        <script src="Ejava.js"></script>
+    </body>
+    </html>

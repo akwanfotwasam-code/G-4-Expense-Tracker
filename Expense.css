@@ -1,0 +1,89 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    background-color: rgb(192, 224, 253);
+    padding: 20px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 900;
+    color:  #003862;
+    text-align: center;
+}
+
+tbody{
+    margin-left: 100rem;
+}
+
+button{
+    background-color: #288092;
+    color: white;
+    padding: 10px 20px;
+    border: ridge;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 37rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: #076274;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+table{
+    width: 50rem;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    margin-left: 13rem;
+    padding-inline: 3rem;
+    /* table-layout: fixed; */
+}
+
+#headrow{
+    background-color: #1d9dfe;
+}
+
+tbody{
+    background-color: #8ccbfb;
+}
+
+th, td{
+    border: 1px solid;
+    padding: 8px;
+}
+
+tfoot{
+    background-color: #4cb2ff;
+}
+
+
+#btn{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color:  #4cb2ff;
+    margin-left: 30px;
+}
+
+p{
+    text-align: center;
+    text-align: right;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+p input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 1.5px;
+    font-size: medium;
+}
